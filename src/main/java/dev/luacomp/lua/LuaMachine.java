@@ -15,6 +15,7 @@ import org.luaj.vm2.compiler.LuaC;
 import org.luaj.vm2.lib.Bit32Lib;
 import org.luaj.vm2.lib.BaseLib;
 import org.luaj.vm2.lib.CoroutineLib;
+import org.luaj.vm2.lib.PackageLib;
 import org.luaj.vm2.lib.StringLib;
 import org.luaj.vm2.lib.TableLib;
 import org.luaj.vm2.lib.jse.JseMathLib;
@@ -134,7 +135,7 @@ public class LuaMachine {
         Runnable[] self = new Runnable[1];
         self[0] = () -> {
             if (be.getGameTime() < due) {
-                be.enqueueMainTask(self[0]); // ainda não é a hora
+                be.enqueueMainTask(self[0]);
                 return;
             }
             try {
@@ -310,6 +311,7 @@ public class LuaMachine {
     private void setupGlobals() {
         // Só bibliotecas seguras: sem io, sem luajava, sem package/require, sem os padrão.
         globals.load(new BaseLib());
+        globals.load(new PackageLib());
         globals.load(new Bit32Lib());
         globals.load(new TableLib());
         globals.load(new StringLib());
