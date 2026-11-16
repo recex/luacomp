@@ -16,11 +16,13 @@ jobs:
           gradle-version: 8.8
       - name: Build
         shell: bash
-        run: gradle build --no-daemon --stacktrace 2>&1 | tee build.log
+        run: gradle build jarJar --no-daemon --stacktrace 2>&1 | tee build.log
+      - name: Listar arquivos gerados
+        if: always()
+        run: ls -la build/libs || true
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: luacomp-build
-          path: |
-            build/libs/*.jar
-            build.log
+          name: luacomp-jar
+          path: build/libs/*.jar
+          if-no-files-found: error
