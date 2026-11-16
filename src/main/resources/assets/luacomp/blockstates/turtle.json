@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=north,on=false": {
+      "model": "luacomp:block/turtle"
+    },
+    "facing=north,on=true": {
+      "model": "luacomp:block/turtle"
+    },
+    "facing=east,on=false": {
+      "model": "luacomp:block/turtle",
+      "y": 90
+    },
+    "facing=east,on=true": {
+      "model": "luacomp:block/turtle",
+      "y": 90
+    },
+    "facing=south,on=false": {
+      "model": "luacomp:block/turtle",
+      "y": 180
+    },
+    "facing=south,on=true": {
+      "model": "luacomp:block/turtle",
+      "y": 180
+    },
+    "facing=west,on=false": {
+      "model": "luacomp:block/turtle",
+      "y": 270
+    },
+    "facing=west,on=true": {
+      "model": "luacomp:block/turtle",
+      "y": 270
+    }
+  }
+}

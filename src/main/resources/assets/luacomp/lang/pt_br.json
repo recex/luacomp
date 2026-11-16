@@ -1,0 +1,15 @@
+{
+  "block.luacomp.computer": "Computador",
+  "block.luacomp.monitor": "Monitor",
+  "block.luacomp.wireless_modem": "Modem Sem Fio",
+  "block.luacomp.wired_modem": "Modem com Fio",
+  "block.luacomp.cable": "Cabo de Rede",
+  "block.luacomp.speaker": "Alto-falante",
+  "block.luacomp.sensor": "Sensor de Entidades",
+  "block.luacomp.turtle": "Turtle",
+  "block.luacomp.disk_drive": "Leitor de Disquete",
+  "block.luacomp.camera": "Câmera",
+  "item.luacomp.disk": "Disquete",
+  "block.luacomp.printer": "Impressora",
+  "item.luacomp.printout": "Página Impressa"
+}

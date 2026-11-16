@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "luacomp:block/computer_top",
+    "front": "luacomp:block/monitor_front",
+    "side": "luacomp:block/computer_side"
+  }
+}

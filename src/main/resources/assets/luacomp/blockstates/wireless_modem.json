@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "luacomp:block/wireless_modem"
+    },
+    "facing=up": {
+      "model": "luacomp:block/wireless_modem",
+      "x": 180
+    },
+    "facing=south": {
+      "model": "luacomp:block/wireless_modem",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "luacomp:block/wireless_modem",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "luacomp:block/wireless_modem",
+      "x": 90,
+      "y": 180
+    },
+    "facing=east": {
+      "model": "luacomp:block/wireless_modem",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

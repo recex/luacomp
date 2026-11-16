@@ -1,0 +1,15 @@
+{
+  "values": [
+    "luacomp:computer",
+    "luacomp:monitor",
+    "luacomp:wireless_modem",
+    "luacomp:wired_modem",
+    "luacomp:cable",
+    "luacomp:speaker",
+    "luacomp:sensor",
+    "luacomp:camera",
+    "luacomp:disk_drive",
+    "luacomp:turtle",
+    "luacomp:printer"
+  ]
+}

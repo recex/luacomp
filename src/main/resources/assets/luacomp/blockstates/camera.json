@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "luacomp:block/camera"
+    },
+    "facing=east": {
+      "model": "luacomp:block/camera",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "luacomp:block/camera",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "luacomp:block/camera",
+      "y": 270
+    }
+  }
+}

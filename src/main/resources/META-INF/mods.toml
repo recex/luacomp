@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="luacomp"
+version="0.1.0"
+displayName="Lua Computers"
+description='''
+Computadores programáveis em Lua dentro do Minecraft, inspirados no ComputerCraft: Tweaked.
+'''
+
+[[dependencies.luacomp]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.luacomp]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"

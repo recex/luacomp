@@ -1,0 +1,15 @@
+{
+  "block.luacomp.computer": "Computer",
+  "block.luacomp.monitor": "Monitor",
+  "block.luacomp.wireless_modem": "Wireless Modem",
+  "block.luacomp.wired_modem": "Wired Modem",
+  "block.luacomp.cable": "Network Cable",
+  "block.luacomp.speaker": "Speaker",
+  "block.luacomp.sensor": "Entity Sensor",
+  "block.luacomp.turtle": "Turtle",
+  "block.luacomp.disk_drive": "Disk Drive",
+  "block.luacomp.camera": "Camera",
+  "item.luacomp.disk": "Floppy Disk",
+  "block.luacomp.printer": "Printer",
+  "item.luacomp.printout": "Printed Page"
+}

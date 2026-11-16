@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "luacomp:block/printer"
+    },
+    "facing=east": {
+      "model": "luacomp:block/printer",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "luacomp:block/printer",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "luacomp:block/printer",
+      "y": 270
+    }
+  }
+}
